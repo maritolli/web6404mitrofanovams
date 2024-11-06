@@ -1,0 +1,13 @@
+@font-face{
+    font-family: "Rubik Mono One";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/RubikMonoOne-Regular.ttf) format("truetype");
+}
+
+@font-face{
+    font-family: "Seymour One";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/SeymourOne-Regular.ttf) format("truetype");
+}

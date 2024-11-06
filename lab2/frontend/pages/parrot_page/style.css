@@ -1,0 +1,85 @@
+.main-container{
+    background-color:  var(--parrot-background-color);
+}
+
+.parrot-words{
+    margin: 3% auto auto;
+}
+
+/*Селектор класса*/
+.parrot-words-text{
+    font-family: Seymour One, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+
+    text-align: center;
+}
+
+/*Селектор тега*/
+p{
+    color: var(--words-color);
+}
+
+.parrot-picture{
+    margin: 3% auto 3% auto;
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: 2px solid var(--border-color);
+}
+
+.parrot-table{
+    width: 100%;
+    height: 20%;
+    border-collapse: collapse;
+}
+
+.parrot-table th{
+    /*Стили к заголовку*/
+    width: 34%;
+    text-align: center;
+    font-size: 28px;
+    padding: 30px 0 21px 0;
+    border-bottom: 3px solid var(--words-color);
+    border-top: 3px solid var(--words-color);
+}
+
+.parrot-table tr{
+    /*стили к каждой строке*/
+    font-family: Rubik Mono One, sans-serif;
+    font-weight: 400;
+    margin-left: 20px;
+    color: var(--words-color);
+}
+
+.parrot-table td{
+    font-size: 26px;
+    padding-top: 30px;
+}
+
+/*селекторы псевдокласса*/
+.parrot-table td:nth-child(1){
+    text-align: center;
+    padding-right: 10px;
+}
+
+.parrot-table td:nth-child(2){
+    text-align: center;
+}
+
+.parrot-table td:nth-child(3){
+    text-align: right;
+    padding-right: 100px;
+}
+
+.parrot-end-words{
+    margin: 3% auto 3% auto;
+}
+
+.parrot-end-words-text{
+    text-align: center;
+    font-family: Rubik Mono One, sans-serif;
+    font-weight: 400;
+    color: var(--words-color);
+}

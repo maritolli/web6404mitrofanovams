@@ -1,0 +1,11 @@
+:root{
+    --hover-color: black;
+    --words-color: rgb(255, 255, 255);
+    --back-words-color: rgb(204, 204, 204);
+    --border-color: rgb(102, 102, 102);
+
+    --main-background-color: rgb(102, 102, 153);
+    --cat-background-color: rgb(177, 177, 177);
+    --frog-background-color: rgb(102, 153, 102);
+    --parrot-background-color: rgb(204, 204, 153);
+}
