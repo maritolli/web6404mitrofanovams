@@ -10,4 +10,5 @@ yarn.lock
 # Editor settings
 .vscode/*
 !.vscode/extensions.json
-.idea
+../.idea
+
