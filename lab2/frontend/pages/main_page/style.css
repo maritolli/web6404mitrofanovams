@@ -1,0 +1,65 @@
+.main-container{
+    background-color:  var(--main-background-color);
+}
+
+.main-question{
+    margin: 5% auto 3% auto;
+}
+
+/*Селектор класса*/
+.main-question-text{
+    font-family: Seymour One, sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+
+    text-align: center;
+}
+
+/*Селектор тега*/
+p{
+    color: var(--words-color);
+}
+
+.main-pictures{
+    margin: 0 auto;
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+}
+
+.main-image{
+    width: 360px;
+    height: 360px;
+    border: 2px solid var(--border-color);
+}
+
+.main-image:hover{
+    box-shadow: 0 0 15px var(--hover-color);
+}
+
+.main-little-words{
+    width: 1300px;
+    height: 32px;
+    margin: 10px auto 0 auto;
+    display: flex;
+
+    gap: 430px;
+
+    font-family: Rubik Mono One, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 31px;
+    text-align: center;
+}
+
+.main-end-words{
+    margin: 10% auto auto;
+}
+
+.main-end-words-text{
+    text-align: center;
+    font-family: Rubik Mono One, sans-serif;
+    font-weight: 400;
+    color: var(--back-words-color);
+}
