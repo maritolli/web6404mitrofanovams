@@ -1,6 +1,7 @@
 /**
  * Напишите функцию, которая проверяет, является ли число целым, используя побитовые операторы
  * @param {*} n
+ * побитовое или
  */
 function isInteger(n) {
     return (n | 0) === n;
@@ -87,7 +88,7 @@ function fibonacci(n) {
  * console.log(sumFn(3)) - 18
  */
 function getOperationFn(initialValue, operatorFn = null) {
-    return (num) => initialValue = operatorFn === null? initialValue: operatorFn(initialValue, num);
+    return (num) => initialValue = operatorFn === null? initialValue : operatorFn(initialValue, num);
 }
 
 /**

@@ -1,64 +1,68 @@
-.main-container{
-    background-color:  var(--main-background-color);
+.main-container {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    background-color: var(--main-background-color);
 }
 
-.main-question{
-    margin: 5% auto 3% auto;
+.main-question {
+    text-align: center;
+    margin: 5% 0;
 }
 
-/*Селектор класса*/
-.main-question-text{
+.main-question-text {
     font-family: Seymour One, sans-serif;
     font-size: 70px;
     font-weight: 400;
     line-height: 88px;
-
-    text-align: center;
-}
-
-/*Селектор тега*/
-p{
     color: var(--words-color);
 }
 
-.main-pictures{
-    margin: 0 auto;
-    display: flex;
-    gap: 200px;
-    justify-content: center;
+.main-pictures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 20px;
 }
 
-.main-image{
+/* Здесь добавлена анимация */
+.main-image {
     width: 360px;
     height: 360px;
     border: 2px solid var(--border-color);
+    transition: box-shadow 0.3s ease, transform 0.3s, opacity 0.3s;
 }
 
-.main-image:hover{
+/* Здесь добавлена анимация */
+.main-image:hover {
+    transform: scale(1.2);
     box-shadow: 0 0 15px var(--hover-color);
 }
 
-.main-little-words{
-    width: 1300px;
-    height: 32px;
-    margin: 10px auto 0 auto;
-    display: flex;
+/* Здесь добавлена анимация */
+.main-image:not(:hover) {
+    opacity: 0.7;
+}
 
-    gap: 430px;
-
+.main-little-words {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin: 20px;
     font-family: Rubik Mono One, sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 31px;
-    text-align: center;
+    color: var(--words-color);
 }
 
-.main-end-words{
-    margin: 10% auto auto;
+.main-end-words {
+    text-align: center;
+    margin: 5%;
 }
 
-.main-end-words-text{
-    text-align: center;
+.main-end-words-text {
     font-family: Rubik Mono One, sans-serif;
     font-weight: 400;
     color: var(--back-words-color);
