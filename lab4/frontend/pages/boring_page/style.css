@@ -1,30 +1,103 @@
 .main-container{
-    background-color:  var(--main-background-color);
+    background: linear-gradient(30deg, var(--main-background-color), var(--cat-background-color));
 }
 
-.main-question{
-    margin: 1% auto 1% auto;
+.form-container {
+    max-width: 700px;
+    margin: 2% auto;
+    padding: 20px;
+    border: 1px solid var(--hover-color);
+    border-radius: 5px;
+    box-shadow: 0 0 10px var(--border-color);
 }
 
-.main-question-text{
-
-    font-size: 50px;
-    font-weight: 400;
-    line-height: 88px;
+.form-container h2 {
     text-align: center;
-    color: var(--words-color)
+    font-size: 30px;
+    font-family: Rubik Mono One, sans-serif;
+    font-weight: 400;
+    color: var(--words-color);
+    margin-bottom: 20px;
 }
 
-.long-boring-story{
-    text-align: justify;
-    padding: 0 20px 0 20px;
-    font-size: 30px;
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    font-family: Rubik Mono One, sans-serif;
     font-weight: 400;
+    color: var(--words-color);
+    margin-bottom: 5px;
+}
+
+input[type = "text"], textarea[id = "message"] {
+    font-size: 20px;
+    width: 100%;
+    resize: none;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid var(--hover-color);
+    color: var(--hover-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.send-information-button{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid var(--hover-color);
+    border-radius: 4px;
+    cursor: pointer;
+
+    font-size: 18px;
+    text-align: center;
+    font-family: Rubik Mono One, sans-serif;
+    font-weight: 400;
+
     color: var(--words-color);
 }
 
+button:hover {
+    background-color: var(--border-color);
+}
+
+.picture-container{
+    text-align: center;
+}
+
+.btn{
+    padding: 15px 30px;
+    background-color: transparent;
+
+    text-align: center;
+    font-family: Rubik Mono One, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--words-color);
+
+    border: 1px solid var(--hover-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.image-container {
+    margin: 3% auto;
+}
+
+/* Стили для загруженной картинки */
+.loaded-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
 .boring-end-words{
-    margin: 3% auto 3% auto;
+    margin: 3% auto;
 }
 
 .boring-end-words-text{
