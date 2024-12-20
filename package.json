@@ -1,0 +1,21 @@
+{
+    "name": "js-tasks",
+    "version": "1.0.0",
+    "description": "",
+    "main": "lab3/src/core.js",
+    "author": "",
+    "scripts": {
+        "test": "lab3/node_modules/.bin/mocha src",
+        "prettier": "lab3/node_modules/.bin/prettier -w ../../../../AppData/Local/Temp/Rar$DRa1608.44765/js-tasks-main",
+        "prettier:check": "lab3/node_modules/.bin/prettier -c ../../../../AppData/Local/Temp/Rar$DRa1608.44765/js-tasks-main"
+    },
+    "devDependencies": {
+        "lint-staged": "^13.0.3",
+        "mocha": "^10.1.0",
+        "prettier": "2.7.1"
+    },
+    "lint-staged": {
+        "**/*": "prettier --write ."
+    },
+    "license": "MIT"
+}

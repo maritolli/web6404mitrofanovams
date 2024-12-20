@@ -3,8 +3,8 @@ logs
 *.log
 
 # NodeJS data
-node_modules
-package-lock.json
+lab3/node_modules
+../package-lock.json
 yarn.lock
 
 # Editor settings
